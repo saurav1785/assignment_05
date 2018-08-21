@@ -15,7 +15,7 @@ else:
 
 #Q.2-Take length and breadth input from user and check whether the dimensions are of square or rectangle.
 #Answer
-     length=int(input('Enter Length:'))
+length=int(input('Enter Length:'))
 breadth=int(input('Enter Breadth:'))
 if(length>0 and breadth>0):
     if(length==breadth):
@@ -27,7 +27,7 @@ else:
 
 #Q.3- Take the input age of 3 people and determine oldest and youngest among them.
 #Answer
-   a1=int(input("Enter age 1:"))
+a1=int(input("Enter age 1:"))
 a2=int(input("Enter age 2:"))
 a3=int(input("Enter age 3:"))
 if(a1>=a2 and a1>=a3):
